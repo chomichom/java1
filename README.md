@@ -1,2 +1,1 @@
-# java1
-Java Programming 1
+# Java Programming 1
