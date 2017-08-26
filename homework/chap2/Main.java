@@ -9,5 +9,6 @@ public class Main {
 
         String oddOrEven = n % 2 == 0 ? "even" : "odd";
 
-        System.out.printf("%d is %s.%n", n, oddOrEven); }
+        System.out.printf("%d is %s.%n", n, oddOrEven);
+    }
 }
