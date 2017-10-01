@@ -14,9 +14,10 @@ public class Main {
             System.out.println(bonus[i]);
         }
 
-        int[] bestScores = new int[] {30, 6, 100, 18, 73}; // Init values to zero.
+        int[] bestScores = {30, 6, 100, 18, 73}; // Use array initializer.
+        System.out.println("Index    Value");
         for (int i = 0; i < bestScores.length; i++) {
-            System.out.println(bestScores[i]);
+            System.out.printf("%5d    %5d%n", i, bestScores[i]);
         }
     }
 }
